@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<body class="body">
+   <div id="container">
+       <div id="screen">
+           <div id="output"></div>
+       </div>
+
+       <div id="input1">
+        <button class="button" onclick=" addToSum('1')">1</button>
+        <button class="button" onclick=" addToSum('2')">2</button>
+        <button class="button" onclick=" addToSum('3')">3</button>
+        <button class="button" onclick=" addToSum('+')">+</button>
+       </div>
+       <div id="input2">
+        <button class="button" onclick=" addToSum('4')">4</button>
+        <button class="button" onclick=" addToSum('5')">5</button>
+        <button class="button" onclick=" addToSum('6')">6</button>
+        <button class="button" onclick=" addToSum('-')">-</button> 
+       </div>
+       <div id="input3">
+        <button class="button" onclick=" addToSum('7')">7</button>
+        <button class="button" onclick=" addToSum('8')">8</button>
+        <button class="button" onclick=" addToSum('9')">9</button>
+        <button class="button" onclick=" addToSum('*')">*</button>
+       </div>
+       <div id="input4">
+        <button class="button" onclick=" addToSum('0')">0</button>
+        <button class="button" onclick=" addToSum('.')">.</button>
+        <button class="button" onclick=" evaluateSum('=')">=</button>
+        <button class="button" onclick=" addToSum('/')">/</button>
+       </div>
+      <div id="input5">
+          <button class="button2"></button>
+          <button class="button2"></button>
+      </div>
+
+   </div>
+    <script src='main.js'></script>
+</body>
+</html>
