@@ -67,8 +67,8 @@
    
 }
 button:hover{
-    background-color:#023047;
-    opacity: 0.5;
+    background-color:rgba(0, 0, 0, 40%);
+    
 }
 
 .button2{
